@@ -1,0 +1,108 @@
+body {
+    background-image:url('images/background.jpg');
+    color:white;
+    font-size:0.85em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+span.divider {
+    background-image: url('images/divider.png');
+    background-position-x: -12px;
+    background-position-y: -5px;
+    display:block;
+    height:7px;
+    width:100%;
+}
+
+#page-wrapper {
+    left:auto;
+    background-image:url('images/background-body.png');
+    height: 430px;
+    margin:auto auto;
+    opacity:0.8;
+    padding:1em;
+    top:auto;
+    width: 515px;
+}
+
+#page-wrapper .content {
+    clear:both;
+    height:355px;
+}
+
+#page-wrapper .content-header h1{
+    margin:0.25em;
+}
+
+#page-wrapper .content-area h3{
+    margin:0em;
+    padding:0em;
+}
+
+#page-wrapper .content-area{
+    background-image:url('images/content-area.png');
+    height:283px;
+    float:left;
+    padding:0.5em;
+    width:220px;
+}
+
+#page-wrapper .content-area.last {
+    float:right;
+    margin-right:15px;
+    overflow:auto;
+}
+
+div.pierre-paul {
+    float:left;
+    margin:0.5em;
+    opacity:0.5;
+}
+
+div.pierre-paul {
+    font-size: 11px;
+    color: #c3c3c3;
+    padding: 10px 20px;
+    background: #141414;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #1d1f20;
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,0.7),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+
+
+canvas {
+    background-image:url('/images/mathieu.jpg');
+    border-radius:3px;
+    height:280px;
+}
+
+button {
+    border:0;
+    cursor:pointer;
+    float:right;
+    opacity:0.5;
+    margin-right:2em;
+    margin-top: 0.75em;
+    -webkit-transition-property:color, background, opacity; 
+    -webkit-transition-duration: 1s, 1s; 
+    -webkit-transition-timing-function: linear, ease-in;
+    font-size: 14px;
+    font-weight:bold;
+    color: white;
+    padding: 10px 20px;
+    background-color:#141414;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-shadow: 0px -1px 0px rgba(000,000,000,0.7), 0px 1px 0px rgba(255,255,255,0.3);
+}
+
+button:hover {
+    color:white;
+    opacity:1;
+}
+
